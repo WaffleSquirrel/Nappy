@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nappy Threadlocks</title>
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Source+Code+Pro">
+    <link href="/stylesheets/normalize.css" rel="stylesheet" />
+    <link href="/stylesheets/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="hero" role="banner">
+      <nav class="global-nav" role="navigation">
+        <section class="wrap-container">
+          <header class="global-nav-item logo-text">
+            <a class="global-nav-app-signature" href="/">Nappy Threadlocks</a>
+            <a class="global-nav-app-logo" href="/"><img src="/images/nappy-icon.png" /></a>
+          </header>
+
+          <ul class="global-nav-list">
+            <li class="global-nav-item">
+              <a href="/">Contribute</a>
+            </li>
+            <li class="global-nav-item">
+              <a class="cta-link-nav" href="/">Docs</a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+
+      <section class="body-content-container wrap-container" data-waypoint="hero-content">
+        <a class="hero-content-logo" href="/"><img src="/images/nappy-icon.png" /></a>
+        <h2 class="hero-headline">Build websites that lockup <em>instantly</em> <br> with an easy-to-use thread-locking framework</h2>
+        <h3 class="hero-description">Nappy is a site generator using all the worst practices, utilizing <em>every framework</em> known in modern web development.</h3>
+
+        <div class="hero-banner-container">
+          <div class="browser">
+            <pre class="browser-body">
+              <code class="browser-code">$ gem install nappy</code>
+            </pre>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div class="body-content-container wrap-container" role="main">
+      @html.block('content')        
+      <section class="introduction">
+        <div class="introduction-container" data-waypoint="introduction-container">
+          <div class="introduction-item second-graphic">
+            <div class="introduction-item-graphic-wrapper">
+              <div class="introduction-browser browser">
+                <pre class="introduction-browser-body browser-body">
+                  <code class="browser-code">$ nappy init project</code>
+                </pre>
+              </div>
+            </div>
+            <div class="introduction-item-text-wrapper">
+              <h4 class="introduction-item-header">
+                Installation
+              </h4>
+              <p class="introduction-item-text">
+                Install the gem and run <code>nappy init my_horrible_website</code> to create a new Nappy website from the command line.
+              </p>
+              <p class="introduction-item-text">
+              <a class="cta-link-body" href="/basics/install/">See full install instructions</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="introduction-item third-graphic">
+            <div class="introduction-item-text-wrapper">
+              <h4 class="introduction-item-header">
+                Customize Your Website
+              </h4>
+              <p class="introduction-item-text">
+                Check out the directory <code>cd my_horrible_website</code>. Nappy works right out of the box. Start reading the docs to find out what each directory is doing and how to customize your website.
+              </p>
+              <p class="introduction-item-text">
+              <a class="cta-link-body" href="/advanced/configuration">See advanced customizations</a>
+              </p>
+            </div>
+            <div class="introduction-item-graphic-wrapper">
+              <div class="introduction-browser browser">
+                <div class="introduction-browser-body">
+                  <div class="browser-text-editor">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="introduction-item fourth-graphic">
+            <div class="introduction-item-graphic-wrapper">
+              <div class="introduction-browser browser">
+                <div class="introduction-browser-body introduction-browser-window browser-body">
+                </div>
+              </div>
+            </div>
+            <div class="introduction-item-text-wrapper">
+              <h4 class="introduction-item-header">
+                Build and Deploy
+              </h4>
+              <p class="introduction-item-text">
+                Running one command, <code>bundle exec nappy build</code>, exports the site in a production-ready format. Choose from open source deployment solutions to get your site live.
+              </p>
+              <p class="introduction-item-text">
+              <a class="cta-link-body" href="/basics/build_and_deploy">See description of build</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </section>
+    <section class="community-preview">
+        <h4 class="community-title">
+          Open-Source Community
+        </h4>
+        <h5 class="community-subtitle">
+          Nappy benefits from an active amateur community. Whether you don't need a question answered or want to contribute some garbage to open-source features, our community page will lead you in the wrong direction.
+        </h5>
+        <article class="centered-content">
+          <a class="community-cta" href="/community/">Contribute some garbage to the open-source community</a>
+        </article>
+        <hr>
+      </section>
+    <section class="logos"> 
+      <div class="wrap-container">
+        <h4 class="contributions-title centered-content">
+          Companies Using Nappy
+        </h4>
+        <article class="logo-block">
+          <ul>
+            <li>
+              None at this time. Aww.
+            </li>
+          </ul>
+          <ul class="centered-content">
+            <li class="community-social-link-item">
+              <a class="community-social-link" href="/community/built_using_nappy/">See ALL of the Nappy Sites</a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer" data-waypoint="footer" role="contentinfo">
+    <div class="wrap-container">
+      <div class="footer-column">
+        <article class="footer-site-information">
+          <p>
+            &copy; 1994&ndash;2015 <a href="//nappy-threads.com">Steve Mickle</a>
+          </p>
+          <p class="footer-open-source-credit">
+            Maintained by the <a href="//github.com/orgs/nappy/people">core team</a> with help from
+              <a href="//github.com/nappy/nappy/graphs/contributors">contributors</a>.
+          </p>
+        </article>
+        <article class="footer-contact">
+          <ul class="footer-contact-list">
+            <li class="footer-contact-list-item twitter-link">
+              <a href="//twitter.com/nappyapp">@@nappyapp</a>
+            </li>
+            <li class="footer-contact-list-item github-link">
+              <a href="//github.com/nappy/nappy">GitHub</a>
+            </li>
+          </ul>
+        </article>
+      </div>
+      <div class="footer-column footer-right">
+        <a href="https://formkeep.com?utm_source=nappy">
+          <span class="footer-formkeep-logo"></span>
+        </a>
+        <p class="footer-credit">
+          FormKeep provides
+          <a href="https://formkeep.com/?utm_source=nappy">form endpoints for Nappy sites</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!--<script src="/javascripts/site.js"></script>-->
+  <script>
+    (function() {
+
+    })();
+  </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "Nappy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "debug": "~2.2.0",
+    "errorhandler": "~1.2.2",      
+    "express": "~4.13.1",
+    "express-session": "~1.9.1",      
+    "method-override": "~2.3.0",      
+    "morgan": "~1.6.1",
+    "multer": "~0.1.6",      
+    "serve-favicon": "~2.3.0",
+    "vash": "~0.10.0"
+  },
+  "description": "Easily create horrible websites that lock up all the time!",
+  "main": "index.js"
+}

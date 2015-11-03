@@ -2,7 +2,20 @@
 
     @html.block('content', function(model){
             
-        <h2>@model.pageTitle</h2>
+      <section class="logos"> 
+        <div class="wrap-container">
+          <h4 class="contributions-title centered-content">
+            Companies Using Nappy
+          </h4>
+          <article class="logo-block">
+            <ul>
+              <li>
+                None at this time. Aww.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
     })
 

@@ -1,4 +1,8 @@
-nav .global-nav {
+body {
+  background-color: #dedede;
+}
+
+.global-nav {
   background-color:#2F291C;
 }
 
@@ -63,7 +67,7 @@ nav .global-nav {
     }
 
 .introduction-browser-window {
-    background: url(app-logo.svg),#f3c859;
+    background: url(app-logo.svg),#96ff24;
     background-size: 5em;
     background-repeat: no-repeat;
     background-position: 50%;

@@ -277,7 +277,7 @@ img, picture {
 
 code {
     color: #1e2126;
-    background-color: #f8f8f9;
+    background-color: #505050;
     border-radius: 3px;
     font-family: "Source Code Pro", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
     font-size: 1rem;
@@ -286,17 +286,17 @@ code {
 }
 
 ::-moz-selection {
-    background-color: #f3c859;
+    background-color: #96ff24;
     color: #fff;
 }
 
 ::selection {
-    background-color: #f3c859;
+    background-color: #96ff24;
     color: #fff;
 }
 
 fieldset {
-    background-color: white;
+    background-color: #505050;
     border: 1px solid #efefef;
     margin: 0 0 0.75em;
     padding: 1.5em;
@@ -341,7 +341,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
     }
 
     input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, #st-search-input:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-        border-color: #f3c859;
+        border-color: #96ff24;
         box-shadow: inset 0 1px 3px rgba(0,0,0,0.06),0 0 5px rgba(241,192,65,0.7);
         outline: none;
     }
@@ -527,7 +527,7 @@ body {
 
 .global-nav {
     height: 4em;
-    background-color: #f3c859;
+    background-color: #96ff24;
     padding: 1em 0;
     position: relative;
 }
@@ -708,7 +708,7 @@ a.cta-link-nav {
 }
 
     .browser:before {
-        height: 1.6875em;
+        height: 0.2em;
         width: 100%;
         background: #dedede inline-image("browser-bar-button-set.svg") no-repeat 0.5em 0.5em;
         border-radius: 3px 3px 0 0;
@@ -717,20 +717,21 @@ a.cta-link-nav {
     }
 
 .browser-body {
-    background-color: #4a4e56;
+    background-color: #acacac;
     font-weight: 700;
     margin: 0;
-    padding: 1em;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .browser-code {
-    background: #4a4e56;
+    background: #cdcdcd;
     margin: 0;
-    padding: 0;
+    padding: 4px;
 }
 
     .browser-code .identifier {
-        color: white;
+        color: #505050;
     }
 
 .browser-text-editor-sidebar {
@@ -755,12 +756,11 @@ a.cta-link-nav {
 
 .browser-text-editor {
     position: absolute;
-    top: 1.6875em;
+    top: 0.2em;
     bottom: 0;
     left: 0;
     height: 90%;
     width: 100%;
-    background-image: url(text-editor.jpg);
     background-size: 100% 200px;
     background-repeat: no-repeat;
 }
@@ -1097,7 +1097,7 @@ a.cta-link-nav {
 }
 
 .hero {
-    background: #f3c859;
+    background: #96ff24;
     text-align: center;
 }
 
@@ -1117,14 +1117,14 @@ a.cta-link-nav {
 }
 
 .hero-headline {
-    color: white;
+    color: #271b0d;
     font-size: 2.2em;
     font-weight: 600;
     margin: 0 0 0.5em;
 }
 
 .hero-description {
-    color: rgba(0,0,0,0.45);
+    color: #005e24;
     font-size: 1em;
     display: inline-block;
     line-height: 1.4;
@@ -1161,7 +1161,7 @@ a.cta-link-nav {
 }
 
 .introduction-container.active {
-    margin-top: 4em;
+    margin-top: 1em;
 }
 
 .introduction-item {
@@ -1172,7 +1172,7 @@ a.cta-link-nav {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-bottom: 2em;
+    margin-bottom: .5em;
 }
 
     .introduction-item:last-child {
@@ -1194,7 +1194,7 @@ a.cta-link-nav {
 }
 
 .introduction-item code {
-    color: #4a4e56;
+    color: #505050;
     font-size: .95rem;
     padding: 0 .4em;
 }
@@ -1286,21 +1286,22 @@ a.cta-link-nav {
 }
 
 .introduction-browser-body {
-    height: 12.5em;
+    height: 500px;
 }
 
 @media screen and (min-width: 40em) {
     .introduction-browser-body {
-        height: 18.75em;
+        height: 100px;
     }
 }
 
 .introduction-item-header {
-    color: #4a4e56;
+    color: #303030;
 }
 
 .introduction-item-text {
     font-size: 1em;
+    color: beige;
 }
 
 .cta-link-body {
@@ -1343,7 +1344,7 @@ a.cta-link-nav {
 }
 
 .community-title {
-    color: #4a4e56;
+    color: #dedede;
     padding-bottom: 0.5em;
 }
 
@@ -1355,13 +1356,13 @@ a.cta-link-nav {
 
 .community-subtitle {
     font-size: 1.2em;
-    line-height: 1.9em;
-    margin: 0 auto 1.5em;
+    line-height: 100px;
+    margin: 0 auto 100px;
 }
 
 @media screen and (min-width: 40em) {
     .community-subtitle {
-        margin-bottom: 3em;
+        margin-bottom: 200px;
         width: 34.375em;
     }
 }

@@ -5,7 +5,7 @@ pre code {
 }
 
 pre .comment, pre .template_comment, pre .diff .header, pre .doctype, pre .lisp .string, pre .javadoc {
-    color: #93a1a1;
+    color: #505050;
     font-style: italic;
 }
 
@@ -22,7 +22,7 @@ pre .title, pre .localvars, pre .function .title, pre .chunk, pre .decorator, pr
 }
 
 pre .attribute, pre .variable, pre .instancevar, pre .lisp .body, pre .smalltalk .number, pre .constant, pre .class .title, pre .parent, pre .haskell .label {
-    color: #b58900;
+    color: #96ff24;
 }
 
 pre .preprocessor, pre .pi, pre .shebang, pre .symbol, pre .diff .change, pre .special, pre .keymethods, pre .attr_selector, pre .important, pre .subst, pre .cdata {
@@ -34,5 +34,5 @@ pre .deletion {
 }
 
 pre .tex .formula {
-    background: #eee8d5;
+    background: #505050;
 }

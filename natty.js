@@ -14,29 +14,29 @@ var favicon = require('serve-favicon')
   , multer = require('multer')
   , errorHandler = require('errorhandler')
 
-var app = express();
+var nattyApp = express();
 
-app.set('port', process.env.PORT || 3000);
-app.set('views', path.join( __dirname, '/views') ); // critical to use path.join on windows
-app.set('view engine', 'vash');
-app.use(favicon(__dirname + '/public/favicon.ico'));
-app.use(logger('dev'));
-app.use(methodOverride());
-app.use(session({ resave: true,
+nattyApp.set('port', process.env.PORT || 3000);
+nattyApp.set('views', path.join( __dirname, '/views') ); // critical to use path.join on windows
+nattyApp.set('view engine', 'vash');
+nattyApp.use(favicon(__dirname + '/public/favicon.ico'));
+nattyApp.use(logger('dev'));
+nattyApp.use(methodOverride());
+nattyApp.use(session({ resave: true,
                   saveUninitialized: true,
                   secret: 'blarg blarg' }));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(multer());
+nattyApp.use(bodyParser.json());
+nattyApp.use(bodyParser.urlencoded({ extended: true }));
+nattyApp.use(multer());
 
-app.use(express.static(path.join(__dirname, 'public')));
+nattyApp.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', routes.index);
+nattyApp.get('/', routes.index);
 
-if (app.get('env') == 'development'){
-  app.use(errorHandler());
+if (nattyApp.get('env') == 'development'){
+  nattyApp.use(errorHandler());
 }
 
-app.listen(app.get('port'), function(){
-  console.log("Natty server listening on port " + app.get('port'));
+nattyApp.listen(nattyApp.get('port'), function(){
+  console.log("Natty server listening on port " + nattyApp.get('port'));
 });

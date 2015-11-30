@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Nappy Threadlocks</title>
+    <title>Natty</title>
 
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Source+Code+Pro">
     <link href="/stylesheets/normalize.css?seed=100" rel="stylesheet" />
@@ -16,9 +16,9 @@
         <section class="wrap-container">
           <header class="global-nav-item logo-text">
             <a class="global-nav-app-signature" href="/">
-               <img src="/images/nappy-threadlock.png" style="width:24px; height:24px; vertical-align:middle; margin-top:-2px;" /> Nappy Threadlocks
+               <img src="/images/natty-threadlock.png" style="width:24px; height:24px; vertical-align:middle; margin-top:-2px;" /> Natty
             </a>
-            <a class="global-nav-app-logo" href="/"><img src="/images/nappy-icon.png" /></a>
+            <a class="global-nav-app-logo" href="/"><img src="/images/natty-icon.png" /></a>
           </header>
 
           <ul class="global-nav-list">
@@ -33,14 +33,14 @@
       </nav>
 
       <section class="body-content-container wrap-container" data-waypoint="hero-content">
-        <a class="hero-content-logo" href="/"><img src="/images/nappy-icon.png" /></a>
+        <a class="hero-content-logo" href="/"><img src="/images/natty-icon.png" /></a>
         <h2 class="hero-headline">Build websites that <em style="color:#955624;">lockup instantly</em> <br> with an easy-to-use thread locking framework</h2>
-        <h3 class="hero-description">Nappy is a site generator using all the worst practices, utilizing <em>every framework</em> known in modern web development.</h3>
+        <h3 class="hero-description">Natty is a site generator using all the worst practices, utilizing <em>every framework</em> known in modern web development.</h3>
 
         <div class="hero-banner-container">
           <div class="browser">
             <pre class="browser-body">
-              <code class="browser-code">$ gem install nappy</code>
+              <code class="browser-code">$ gem install natty</code>
             </pre>
             <article class="centered-content" style="margin-top:20px; margin-bottom:20px;">
               <a class="community-cta" href="/community/">Contribute some <strong>garbage</strong> to the open-source community</a>

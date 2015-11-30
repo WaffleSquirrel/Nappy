@@ -8,7 +8,7 @@ exports.index = function(req, res){
   //  items.push({ nick: 'nick' + i, date: new Date(), args: ['zero', 'one'] });
   //}
   res.render('index', {
-      channel: 'Nappy'
+      channel: 'Natty'
     , buffer: items
   });
 };

@@ -38,5 +38,5 @@ if (app.get('env') == 'development'){
 }
 
 app.listen(app.get('port'), function(){
-  console.log("Nappy server listening on port " + app.get('port'));
+  console.log("Natty server listening on port " + app.get('port'));
 });
